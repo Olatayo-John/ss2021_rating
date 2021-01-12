@@ -1,0 +1,47 @@
+body{
+	background-image: url('../../assets/images/indian-nature-2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+label{
+	font-weight: bolder;
+	color: black;
+}
+div.btngrp{
+	text-align: center;
+	margin-top: 25px;
+}
+input.form-control{
+	border-radius: 20px
+}
+button.updatebtn{
+	border-radius: 0;
+	margin: 0;
+}
+button.updatebtn:hover,button.copylinkbtn:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+input.form-control:focus{
+	border-color: black;
+	box-shadow: none;
+}
+@media only screen and (max-width: 500px) {
+	form.editform{
+	 padding: 20px;
+	}
+	button.copylinkbtn{
+		padding: 3px;
+		margin-left: 6px;
+	}
+	div.btngrp{
+		margin: 10px;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	div.eidcol{
+		margin-top: 10px;
+	}
+}

@@ -1,0 +1,57 @@
+body{
+	background-image: url('../../assets/images/indian-nature-2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+label{
+	font-weight: bolder;
+	color: black;
+}
+input.form-control{
+	border-radius: 30px
+}
+div.btngrp{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25px;
+}
+button.registerbtn{
+	width: 300px;
+	border-radius: 0;
+	margin: auto;
+}
+button.registerbtn:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+a.loginbtn{
+	margin-top: 10px;
+	text-align: center;
+	/*color: #F57C00;*/
+	color: white;
+	text-decoration: none;
+}
+a.loginbtn:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+input.form-control:focus{
+	border-color: black;
+	box-shadow: none;
+}
+@media only screen and (max-width: 500px) {
+	div.btngrp{
+		display: flex;
+		flex-direction: column;
+	}
+	a.loginbtn{
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	h6.linkinfo{
+		margin-top: 20px;
+	}
+}

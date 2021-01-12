@@ -1,0 +1,100 @@
+body{
+	background-image: url('../../assets/images/indian-nature-2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+input.form-control:focus,select.form-control:focus{
+	border-color: black;
+	box-shadow: none;
+}
+h4.userheader{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+div.btnactgrp{
+	margin-bottom: 25px;
+}
+div.modal-content{
+	background-color: #FF9100  
+}
+input.form-control,select.form-control{
+	border-radius: 20px
+}
+label{
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+td{
+	/*text-transform: uppercase;*/
+	color: black;
+}
+i.fas{
+	cursor: pointer;
+	position: 0;
+}
+i.fa-arrows-alt-v{
+	color: white;
+	font-size: 16px;
+}
+button.bradius{
+	border-radius: 0
+}
+div.pwderr{
+	display: none;
+}
+.modal-body{
+	padding-top: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+i.fa-copy:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+i.fas:hover{
+	transform: scale(1.2);
+	transition: transform .2s;
+}
+div.inh{
+	width: 96px;
+	display: flex;
+	justify-content: center;
+}
+div.ul{
+	display: flex;
+	justify-content: center;
+}
+@media only screen and (max-width: 362px) {
+	div.btnactgrp{
+		display: flex;
+		flex-direction: column;
+	}
+	button.addnewuserbtn{
+		margin-top: 5px
+	}
+}
+@media only screen and (max-width: 500px) {
+	h4.userheader{
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+	div.btnactgrp{
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	div.deptcol{
+		margin-top: 10px;
+	}
+	label.gp{
+		display: none;
+	}
+	button.genpwdbtn{
+		margin-top: 10px;
+		margin-left: 8px;
+	}
+}
+@media only screen and (max-width: 1157px) {
+	
+}

@@ -1,0 +1,80 @@
+body{
+	background-color: #E0E0E0
+}
+div.empty{
+	height: 100vh;
+	width: 50%;
+	float: left;
+}
+input.form-control{
+	border-radius: 30px
+}
+button.btn{
+	border-radius: 0
+}
+div.login{
+	height: 100vh;
+	width: 50%;
+  float: right;
+  padding: 120px;
+  background-color: #0B3954;
+}
+label{
+	font-weight: bolder;
+	color: white;
+}
+div.btngrp{
+	display: flex;
+	justify-content: space-between;
+}
+a.signupbtn{
+	color: white;
+	text-decoration: none;
+}
+a.signupbtn:hover{
+	transform: scale(1.1);
+	transition: transform .2s;
+}
+input.form-control:focus{
+	border-color: black;
+	box-shadow: none;
+}
+.responsive {
+	position: relative;               
+  left: 50%;                  
+  top: 25%;                  
+  transform: translate(-50%,-25%);
+}
+div.empty{
+	background-color: white
+}
+
+@media only screen and (max-width: 850px) {
+	/*div.empty{
+		display: none;
+	}*/
+	div.login{
+	 	padding: 50px;	 
+	 	padding-top: 100px;
+	 	width: 50%;
+	}
+	div.btngrp{
+		display: flex;
+		flex-direction: column;
+	}
+	a.signupbtn{
+		text-align: right;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	div.login{
+	 	padding-left: 5px;
+	 	padding-right: 5px;
+	}
+}
+@media only screen and (min-width: 900px) {
+	div.login{
+	 	width: 50%;
+	}
+}
